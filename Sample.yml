@@ -1,0 +1,11 @@
+---
+#TestScriptfor YAML
+Resources:
+  Ec2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0fa0e592bafa075af #AmazonAnsible AMI
+      Tags:
+        - Key: Name
+          Value: 'Ansible-Mgt-Node'
