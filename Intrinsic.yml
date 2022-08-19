@@ -9,4 +9,4 @@ Resources:
       Tags:
         - Key: Name
           #Value: 'Ansible-Mgt-Node' #Regular value
-          Value: !Join [ "-",[EC2,Ansible,Mgt,Node,1]]
+          Value: !Join [ "-",[EC2,Ansible,Mgt,Node,2]]
